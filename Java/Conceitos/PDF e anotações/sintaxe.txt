@@ -1,0 +1,2 @@
+Sintaxe é como as palavras estão estruturas para formar uma frase coerente.
+Em programação, se você escrever public static void main(string, args[]), a frase estará correta. No entanto, se escrever public void main, ele retornará um erro sintático, já que a frase não possui coerência com a estrutura esperada pelo computador.
