@@ -19,7 +19,7 @@
 <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" title="Javinha" height="200" alt="Java" width="200">
 </div>
 
-<h2>Tópicos Estudado</h2>
+<h2>Tópicos Estudados</h2>
 
 - [x] Variáveis e tipos de dados
 - [x] Operadores aritméticos, lógicos e de atribuição
