@@ -16,7 +16,7 @@
 
 
 <div align="center">
-<img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" title="Javinha" height="200" width="200">
+<img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" title="Javinha" height="200" alt="Java" width="200">
 </div>
 
 <hr>
