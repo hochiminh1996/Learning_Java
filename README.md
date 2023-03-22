@@ -8,3 +8,7 @@
 
 <p align="justify">Além disso, o Java é uma linguagem de programação robusta, segura e escalável, com um grande ecossistema de bibliotecas e frameworks que facilitam o desenvolvimento de software. Ele é amplamente utilizado em empresas de tecnologia e em projetos open source em todo o mundo.
 </p>
+
+<p align="justify">Durante minha jornada, fui apresentado aos conceitos básicos de programação Java, como variáveis, tipos de dados, estruturas de controle de fluxo e orientação a objetos. Além disso, vi estudei os fundamentos da  plataforma Java, incluindo a Máquina Virtual Java (JVM) e o ecossistema de bibliotecas e frameworks.</p>
+
+
