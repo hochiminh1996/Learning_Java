@@ -20,14 +20,10 @@
 </div>
 
 <h3>Tópicos</h3>
+
 - Variáveis e tipos de dados
 - Operadores aritméticos, lógicos e de atribuição
 - Estruturas de controle de fluxo (condicionais e loops)
 - Programação orientada a objetos (classes, objetos, encapsulamento, herança, polimorfismo)
-- Tratamento de exceções
-- Arrays e Collections
-- Entrada e saída de dados
-- Desenvolvimento de interfaces gráficas com Swing
-- Conexão com bancos de dados (JDBC)
-- Desenvolvimento web com Servlets e JSP
-- Introdução ao framework Spring (IoC, DI, AOP)
+
+
