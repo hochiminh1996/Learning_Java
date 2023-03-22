@@ -19,11 +19,20 @@
 <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" title="Javinha" height="200" alt="Java" width="200">
 </div>
 
-<h3>Tópicos</h3>
+<h2>Tópicos Estudado</h2>
 
-- Variáveis e tipos de dados
-- Operadores aritméticos, lógicos e de atribuição
-- Estruturas de controle de fluxo (condicionais e loops)
-- Programação orientada a objetos (classes, objetos, encapsulamento, herança, polimorfismo)
+- [x] Variáveis e tipos de dados
+- [x] Operadores aritméticos, lógicos e de atribuição
+- [x] Estruturas de controle de fluxo (condicionais e loops)
+- [x] Programação orientada a objetos (classes, objetos, encapsulamento, herança, polimorfismo)
+- [ ] Tratamento de exceções
+- [ ] Arrays e Collections
+- [ ] Entrada e saída de dados
+- [ ] Desenvolvimento de interfaces gráficas com Swing
+- [ ] Conexão com bancos de dados (JDBC)
+- [ ] Desenvolvimento web com Servlets e JSP
+- [ ] Introdução ao framework Spring (IoC, DI, AOP)
+
+<hr>
 
 
