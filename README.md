@@ -24,7 +24,7 @@
 - [x] Variáveis e tipos de dados
 - [x] Operadores aritméticos, lógicos e de atribuição
 - [x] Estruturas de controle de fluxo (condicionais e loops)
-- [x] Programação orientada a objetos (classes, objetos, encapsulamento, herança, polimorfismo)
+- [ ] Programação orientada a objetos (classes, objetos, encapsulamento, herança, polimorfismo)
 - [ ] Tratamento de exceções
 - [ ] Arrays e Collections
 - [ ] Entrada e saída de dados
