@@ -27,7 +27,7 @@
 - [x] Programação orientada a objetos (classes, objetos, encapsulamento, herança, polimorfismo)
 - [ ] Tratamento de exceções
 - [x] Arrays e Collections
-- [ ] Entrada e saída de dados
+- [x] Entrada e saída de dados
 - [ ] Desenvolvimento de interfaces gráficas com Swing
 - [ ] Conexão com bancos de dados (JDBC)
 - [ ] Desenvolvimento web com Servlets e JSP
