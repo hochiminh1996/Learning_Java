@@ -16,7 +16,7 @@ public class Program {
 		Product[] produto = new Product[n];
 
 		for (int i = 0; i < n; i++) {
-			sc.nextLine();//consumindo o enter pendente
+			sc.nextLine();//consumindo a novo linha criado pelo S.O ao pressionar enter.
 			System.out.printf("Nome do %d º produto :", i + 1);
 			String nome_produto = sc.nextLine();
 			
