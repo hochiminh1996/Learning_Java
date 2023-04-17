@@ -26,7 +26,7 @@
 - [x] Estruturas de controle de fluxo (condicionais e loops)
 - [x] Programação orientada a objetos (classes, objetos, encapsulamento, herança, polimorfismo)
 - [ ] Tratamento de exceções
-- [ ] Arrays e Collections
+- [x] Arrays e Collections
 - [ ] Entrada e saída de dados
 - [ ] Desenvolvimento de interfaces gráficas com Swing
 - [ ] Conexão com bancos de dados (JDBC)
