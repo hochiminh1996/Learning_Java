@@ -33,8 +33,9 @@
 - [ ] Desenvolvimento web com Servlets e JSP
 - [ ] Introdução ao framework Spring (IoC, DI, AOP)
 
-<hr>
+
 <h2> Definições </h2>
+<p><strong>Objeto:</strong>Em Java, um objeto é uma instância de uma classe. Ele é uma representação concreta de um conceito, entidade ou coisa no mundo real, que pode ter atributos (variáveis) e comportamentos (métodos) associados a ele. </p>
 
 <p><strong>Wrapper Class:</strong> são conhecidos na linguagem Java como classes especiais que possuem métodos capazes de fazer conversões em variáveis primitivas e também de encapsular tipos primitivos para serem trabalhados como objetos. Ou seja, são representações equivalentes aos tipos primitidos de variáveis.</p>
 
@@ -63,4 +64,3 @@ Exemplo:
     int y = (int)obj;
     //o obj será será convertido para um tipo inteiro.
 ```
-
