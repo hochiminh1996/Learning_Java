@@ -68,8 +68,8 @@ Exemplo:
 <p><strong><h3>List </h3></strong> Uma lista é uma <strong>interface</strong> que representa uma coleção ordenada de elementos, onde cada elemento pode ser acessado por sua posição (índice) na lista. A interface List faz parte do pacote java.util e é uma das principais estruturas de dados usadas para armazenar e manipular coleções de elementos em Java.</p>
 
 ```
-  List<Integer> l;
-  //lista vazia
+  List<Integer> lista = new ArrayList<>();
+  //Observe que temos uma interface (list) e estamos utilizando uma classe(ArrayList) p/ implementar a interface.
 ```
 
 * Vantagem : é altamente flexível e de tamanho variável que auxília no processo de inserção e deleção de elementos (diferente de um array, que possui tamanho fixo e de difícil deleção e inserção).
