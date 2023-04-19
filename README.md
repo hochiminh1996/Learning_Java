@@ -78,5 +78,14 @@ Exemplo:
 
 <strong>Observação : List, por ser uma interface,  não aceita tipos primitívos. Ou seja, teremos que utilizar wrapper class quando trabalharmos com list.<strong>
 
+Métodos do List:
   
-* lista.add("Brasil") : Adiciona um elemento na lista.
+```
+  List<String> lista = new ArrayList<>();
+  
+  lista.add("Brasil");
+  //Adiciona um elemento na lista.
+
+  lista.add(2, "China");
+  //Adicionando elemento em uma posição especifica
+```
