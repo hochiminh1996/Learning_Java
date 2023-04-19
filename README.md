@@ -34,5 +34,13 @@
 - [ ] Introdução ao framework Spring (IoC, DI, AOP)
 
 <hr>
+<h2> Definições </h2>
 
+<p>Wrapper Class: são conhecidos na linguagem Java como classes especiais que possuem métodos capazes de fazer conversões em variáveis primitivas e também de encapsular tipos primitivos para serem trabalhados como objetos. Ou seja, são representações equivalentes aos tipos primitidos de variáveis.</p>
+* <strong>Projeto de Software</strong>: é o processo de desenvolvimento da aplicação como um todo.
+
+* <strong>Number </strong> : Classe que consegue representar tipos primitivos como int, long, double, float.
+* Integer : Classe que representa tipos inteiros, faz o trabalho do int no escopo de objetos.
+* Boolean : Classe que representa tipos boolean, faz o trabalho do boolean no escopo de objetos.
+Há também outros tipos de classes Wrapper que representa tipos primitivos : Double, Float, Long e etc.
 
