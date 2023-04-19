@@ -66,3 +66,6 @@ Exemplo:
 ```
 
 <p><strong>List :</strong> Uma lista é uma <strong>interface</strong> que representa uma coleção ordenada de elementos, onde cada elemento pode ser acessado por sua posição (índice) na lista. A interface List faz parte do pacote java.util e é uma das principais estruturas de dados usadas para armazenar e manipular coleções de elementos em Java.</p>
+
+* Vantagem : é altamente flexível e de tamanho variável que auxília no processo de inserção e deleção de elementos (diferente de um array, que possui tamanho fixo e de difícil deleção e inserção).
+* Desvantagem : Acesso sequencial, já que cada "nó"(ou nodo) aponta para o próximo elemento.
