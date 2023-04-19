@@ -35,9 +35,9 @@
 
 
 <h2> Definições </h2>
-<p><strong>Objeto:</strong>Em Java, um objeto é uma instância de uma classe. Ele é uma representação concreta de um conceito, entidade ou coisa no mundo real, que pode ter atributos (variáveis) e comportamentos (métodos) associados a ele. </p>
+<p><strong><h3>Objeto</h3></strong>Em Java, um objeto é uma instância de uma classe. Ele é uma representação concreta de um conceito, entidade ou coisa no mundo real, que pode ter atributos (variáveis) e comportamentos (métodos) associados a ele. </p>
 
-<p><strong>Wrapper Class:</strong> são conhecidos na linguagem Java como classes especiais que possuem métodos capazes de fazer conversões em variáveis primitivas e também de encapsular tipos primitivos para serem trabalhados como objetos. Ou seja, são representações equivalentes aos tipos primitidos de variáveis.</p>
+<p><strong><h3>Wrapper Class</h3></strong> são conhecidos na linguagem Java como classes especiais que possuem métodos capazes de fazer conversões em variáveis primitivas e também de encapsular tipos primitivos para serem trabalhados como objetos. Ou seja, são representações equivalentes aos tipos primitidos de variáveis.</p>
 
 * <strong>Number :</strong>  Classe que consegue representar tipos primitivos como int, long, double, float.
 * <strong>Integer :</strong> Classe que representa tipos inteiros, faz o trabalho do int no escopo de objetos.
@@ -45,7 +45,7 @@
 
 Há também outros tipos de classes Wrapper que representa tipos primitivos : Double, Float, Long e etc.
 
-<p><strong>Boxing:</strong> É o processo de conversão de um objeto do tipo valor para o tipo referência.</p>
+<p><strong><h3>Boxing</h3></strong> É o processo de conversão de um objeto do tipo valor para o tipo referência.</p>
 Exemplo:
 
 ```
@@ -54,7 +54,7 @@ Exemplo:
   //obj apontará para um local do heap que terá o valor 20
  ```
  
-<p><strong>Unboxing:</strong> É o processo inverso do Boxing, ou seja, converter um objeto do tipo referência para um objeto do tipo valor.</p>
+<p><strong><h3>Unboxing</h3></strong> É o processo inverso do Boxing, ou seja, converter um objeto do tipo referência para um objeto do tipo valor.</p>
 
 Exemplo:
 ```
@@ -65,7 +65,7 @@ Exemplo:
     //o obj será será convertido para um tipo inteiro.
 ```
 
-<p><strong>List :</strong> Uma lista é uma <strong>interface</strong> que representa uma coleção ordenada de elementos, onde cada elemento pode ser acessado por sua posição (índice) na lista. A interface List faz parte do pacote java.util e é uma das principais estruturas de dados usadas para armazenar e manipular coleções de elementos em Java.</p>
+<p><strong><h3>List </h3></strong> Uma lista é uma <strong>interface</strong> que representa uma coleção ordenada de elementos, onde cada elemento pode ser acessado por sua posição (índice) na lista. A interface List faz parte do pacote java.util e é uma das principais estruturas de dados usadas para armazenar e manipular coleções de elementos em Java.</p>
 
 ```
   List<Integer> l;
