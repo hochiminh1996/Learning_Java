@@ -76,7 +76,7 @@ Exemplo:
 * Vantagem : é altamente flexível e de tamanho variável que auxília no processo de inserção e deleção de elementos (diferente de um array, que possui tamanho fixo e de difícil deleção e inserção).
 * Desvantagem : Acesso sequencial, já que cada "nó"(ou nodo) aponta para o próximo elemento.
 
-<strong>Observação : List, por ser uma interface,  não aceita tipos primitívos. Ou seja, teremos que utilizar wrapper class quando trabalharmos com list.<strong>
+<strong>Observação : List, por ser uma interface,  não aceita tipos primitívos. Ou seja, teremos que utilizar wrapper class (ou classe) quando trabalharmos com list.<strong>
 
 Métodos do List:
   
