@@ -43,7 +43,7 @@
 * <strong>Integer :</strong> Classe que representa tipos inteiros, faz o trabalho do int no escopo de objetos.
 * <strong>Boolean :</strong> Classe que representa tipos boolean, faz o trabalho do boolean no escopo de objetos.
 
-Há também outros tipos de classes Wrapper que representa tipos primitivos : Double, Float, Long e etc.
+Há diferentes tipos de classes Wrapper que representam outros primitivos : Double, Float, Long e etc.
 
 <p><strong><h3>Boxing</h3></strong> É o processo de conversão de um objeto do tipo valor para o tipo referência.</p>
 Exemplo:
