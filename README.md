@@ -41,5 +41,6 @@
 * <strong>Number :</strong>  Classe que consegue representar tipos primitivos como int, long, double, float.
 * <strong>Integer :</strong> Classe que representa tipos inteiros, faz o trabalho do int no escopo de objetos.
 * <strong>Boolean :</strong> Classe que representa tipos boolean, faz o trabalho do boolean no escopo de objetos.
+
 Há também outros tipos de classes Wrapper que representa tipos primitivos : Double, Float, Long e etc.
 
