@@ -44,3 +44,12 @@
 
 Há também outros tipos de classes Wrapper que representa tipos primitivos : Double, Float, Long e etc.
 
+<p><strong>Boxing:</strong> É o processo de conversão de um objeto do tipo valor para o tipo referência.</p>
+Por exemplo :
+<code>
+  int x = 20;
+  Object obj = x;
+  
+ </code>
+  
+
