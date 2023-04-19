@@ -91,4 +91,14 @@ Métodos do List:
   
   System.out.println(lista.size());
   //Retorna o tamanho da lista
+  
+  lista.remove("China");
+  //Remove o elemento que tenha o valor definido
+  
+  lista.remove(1);
+  //Remove o elemento com base no indice.
+  
+  lista.removeIf(x -> x.charAt(0) == 'B');
+  //Removendo elemento com base em predicado. Neste caso, ele irá remover da lista qualquer elemento que comece com B.
+  
 ```
