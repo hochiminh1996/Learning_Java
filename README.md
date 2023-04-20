@@ -103,13 +103,13 @@ Métodos do List:
   //Remove o elemento com base no indice.
   
   lista.removeIf(x -> x.charAt(0) == 'B');
-  //Removendo elemento com base em predicado. Neste caso, ele irá remover da lista qualquer elemento que comece com B.
+  //Removendo elemento com base em predicado. Neste caso, ele irá remover da lista qualquer elemento que comece com B (função lambda).
   
   System.out.println(l.indexOf("China"));
   //Localizando a posição de um elemento. Se localizar, retorna a posição. Caso contrário, retorna -1.
   
   String pais = lista.stream().filter(x -> x.charAt(0) == 'A').findFirst().orElse(null);
-  //Localizando o 1º elemento, com base na lista, que começa com uma letra especifica. Se não encontrar, retorne null.
+  //Localizando o 1º elemento, com base na lista, que começa com uma letra especifica. Se não encontrar, retorne null (função lambda).
 ```
   
   
