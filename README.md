@@ -111,3 +111,7 @@ Métodos do List:
   String pais = lista.stream().filter(x -> x.charAt(0) == 'A').findFirst().orElse(null);
   //Localizando o 1º elemento, com base na lista, que começa com uma letra especifica. Se não encontrar, retorne null.
 ```
+  <h3>Array</h3>
+  <p alig="justify">Em Java, um array é uma estrutura de dados que pode armazenar múltiplos elementos do mesmo tipo em uma única variável. Os arrays podem ser unidimensionais (também conhecidos como vetores) ou bidimensionais (também conhecidos como matrizes), e possuem vantagens e desvantagens distintas.
+
+</p>
