@@ -111,7 +111,34 @@ Métodos do List:
   String pais = lista.stream().filter(x -> x.charAt(0) == 'A').findFirst().orElse(null);
   //Localizando o 1º elemento, com base na lista, que começa com uma letra especifica. Se não encontrar, retorne null.
 ```
+  
+  
   <h3>Array</h3>
   <p alig="justify">Em Java, um array é uma estrutura de dados que pode armazenar múltiplos elementos do mesmo tipo em uma única variável. Os arrays podem ser unidimensionais (também conhecidos como vetores) ou bidimensionais (também conhecidos como matrizes), e possuem vantagens e desvantagens distintas.
-
 </p>
+  
+  
+1. Array Unidimensional (Vetor)
+* Definição: Um array unidimensional, ou vetor, é uma coleção de elementos do mesmo tipo de dados que são armazenados em uma única variável, acessados por um índice inteiro não negativo.
+* Vantagens:
+  - Acesso rápido aos elementos: Os elementos em um vetor são armazenados em sequência na memória, o que permite um acesso rápido e eficiente aos elementos usando um       índice inteiro.
+  - Fácil de percorrer: Vetores são ideais para iterações e loops, tornando mais fácil percorrer todos os elementos do vetor usando um loop simples.
+* Desvantagens
+  - Tamanho fixo: O tamanho de um vetor é fixo durante a sua criação e não pode ser alterado posteriormente. Se for necessário adicionar ou remover elementos, é preciso criar um novo vetor com o tamanho desejado e copiar os elementos do vetor antigo.
+  - Ineficiente em inserção/deleção: Inserir ou deletar elementos em um vetor pode ser ineficiente, pois pode exigir a realocação de elementos na memória, especialmente quando feito no início ou meio do vetor.
+  
+2. Array Bidimensional (Matriz):
+* Definição: Um array bidimensional, ou matriz, é uma coleção de elementos organizados em linhas e colunas, formando uma tabela de elementos. É acessado por um par de índices inteiros que representam a posição na matriz.
+* Vantagens:
+  - Estrutura tabular: Matrizes são ideais para representar dados tabulares, como tabelas em banco de dados ou imagens, onde os elementos são organizados em linhas e     colunas.
+  - Flexibilidade de tamanho: Ao contrário de um vetor, as matrizes podem ter tamanho variável em suas dimensões. É possível alterar o número de linhas e colunas em      uma matriz após a sua criação.
+* Desvantagens:
+  - Acesso menos eficiente: O acesso a elementos em uma matriz bidimensional pode ser menos eficiente do que em um vetor, pois requer dois índices para acessar um único elemento.
+  - Complexidade de iteração: Iterar em uma matriz bidimensional pode ser mais complexo do que em um vetor, pois requer o uso de loops aninhados para percorrer todas as linhas e colunas.
+
+
+
+  
+
+  
+  
