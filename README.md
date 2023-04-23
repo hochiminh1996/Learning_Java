@@ -97,7 +97,7 @@ Métodos do List:
   //Retorna o tamanho da lista
   
   lista.remove("China");
-  //Remove o elemento que tenha o valor definido
+  //Remove o elemento que tenha o valor definido.
   
   lista.remove(1);
   //Remove o elemento com base no indice.
