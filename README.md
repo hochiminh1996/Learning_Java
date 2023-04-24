@@ -94,7 +94,7 @@ Métodos do List:
   //Adicionando um elemento em uma posição especifica
   
   System.out.println(lista.size());
-  //Retorna o tamanho da lista
+  //Retorna o tamanho da lista.
   
   lista.remove("China");
   //Remove o elemento que tenha o valor definido.
