@@ -126,6 +126,11 @@ Métodos do List:
 * Desvantagens
   - Tamanho fixo: O tamanho de um vetor é fixo durante a sua criação e não pode ser alterado posteriormente. Se for necessário adicionar ou remover elementos, é preciso criar um novo vetor com o tamanho desejado e copiar os elementos do vetor antigo.
   - Ineficiente em inserção/deleção: Inserir ou deletar elementos em um vetor pode ser ineficiente, pois pode exigir a realocação de elementos na memória, especialmente quando feito no início ou meio do vetor.
+  ```
+   //definição do vetor (unidimensional)
+  
+  int[] matriz = new int[3];
+  ```
   
 2. Array Bidimensional (Matriz):
 * Definição: Um array bidimensional, ou matriz, é uma coleção de elementos organizados em linhas e colunas, formando uma tabela de elementos. É acessado por um par de índices inteiros que representam a posição na matriz.
