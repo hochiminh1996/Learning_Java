@@ -138,6 +138,7 @@ Métodos do List:
 
 ```
   //definição da matriz (bidimensional)
+  
   int[][] matriz = new int[3][3]; // 3l x 3c  
 ```
 
