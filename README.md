@@ -126,6 +126,7 @@ Métodos do List:
 * Desvantagens
   - Tamanho fixo: O tamanho de um vetor é fixo durante a sua criação e não pode ser alterado posteriormente. Se for necessário adicionar ou remover elementos, é preciso criar um novo vetor com o tamanho desejado e copiar os elementos do vetor antigo.
   - Ineficiente em inserção/deleção: Inserir ou deletar elementos em um vetor pode ser ineficiente, pois pode exigir a realocação de elementos na memória, especialmente quando feito no início ou meio do vetor.
+  Exemplo:
   ```
    //definição do vetor (unidimensional)
   
@@ -140,7 +141,8 @@ Métodos do List:
 * Desvantagens:
   - Acesso menos eficiente: O acesso a elementos em uma matriz bidimensional pode ser menos eficiente do que em um vetor, pois requer dois índices para acessar um único elemento.
   - Complexidade de iteração: Iterar em uma matriz bidimensional pode ser mais complexo do que em um vetor, pois requer o uso de loops aninhados para percorrer todas as linhas e colunas.
-
+  
+Exemplo:
 ```
   //definição da matriz (bidimensional)
   
