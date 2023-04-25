@@ -74,7 +74,7 @@ Exemplo:
 ```
   List<String> lista = new ArrayList<>();
   
-  //Observe que temos uma interface (list) e estamos utilizando uma classe(ArrayList) p/ implementar a interface.
+  //Observe que temos uma interface (list) e estamos utilizando uma classe(ArrayList) p/ implementar a interface. Além disso, estamos utilizando um tipo de dado não primitivo (String) p/ trabalhar com a interface list.
 ```
 
 * Vantagem : é altamente flexível e de tamanho variável que auxília no processo de inserção e deleção de elementos (diferente de um array, que possui tamanho fixo e de difícil deleção e inserção).
