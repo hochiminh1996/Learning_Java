@@ -91,7 +91,7 @@ Métodos do List:
   //Adiciona um elemento na lista.
 
   lista.add(2, "China");
-  //Adicionando um elemento em uma posição especifica
+  //Adicionando um elemento em uma posição especifica.
   
   System.out.println(lista.size());
   //Retorna o tamanho da lista.
