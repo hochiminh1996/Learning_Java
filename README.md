@@ -181,13 +181,24 @@ Instant d06 = Instant.parse("2023-04-30T22:13:26-03:00");
 
 ```
 LocalDate data_atual = LocalDate.now();
-//pegando data atual
+//pegando data atual : ANO-MÊS-DIA
+
+LocalDateTime data_atual1 = LocalDateTime.now();
+//pegando data atual + hora : ANO-MÊS-DIA-HH-mm
 
 DateTimeFormatter formato_de_data = DateTimeFormatter.ofPattern("ddd/MM/yyyy");
 //Padrão de data pt-br
 
+DateTimeFormatter formato_de_data1 = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
+//Cria um formato ANO-MÊS-DIA-HH-mm, no modo pt-br
+
+
 System.out.println("Data formatada : " + data_atual.format(formato_de_data));
 //Irá colocar a data capturada, no padrão internacional, e converterá para o formato pt-br na exibição.
+
+System.out.println("Data/hora : " + data_atual1.format(formato_de_data1));
+//Irá colocar a data capturada, no padrão internacional, e converterá para o formato pt-br na exibição : ANO-MÊS-DIA-HH-mm
+
 ```
 
   
