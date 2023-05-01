@@ -168,6 +168,12 @@ Instant d03 = Instant.now();
 		
 LocalDate d04 = LocalDate.parse("2023-04-30");
 //gerando um objeto data a partir de uma string
+	
+Instant d05 = Instant.parse("2023-04-30T22:13:26Z");
+// 2023-04-30T22:13:26Z -> data/hora (minutos/segundos) -> Z é o horario de Londres
+	
+Instant d06 = Instant.parse("2023-04-30T22:13:26-03:00");
+//-03:00 está especificando o GMT. Nesse caso, ele vai pegar a data passada e converter p/ o de Londres.	
   ```
   
 
