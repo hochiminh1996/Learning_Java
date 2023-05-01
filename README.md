@@ -174,19 +174,21 @@ Instant d05 = Instant.parse("2023-04-30T22:13:26Z");
 	
 Instant d06 = Instant.parse("2023-04-30T22:13:26-03:00");
 //-03:00 está especificando o GMT. Nesse caso, ele vai pegar a data passada e converter p/ o de Londres.
-
 	
-DateTimeFormatter fmt1 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-//criando um objeto que define um formato de data especifico.
-		
-LocalDate data_format = LocalDate.parse("30/04/2023", fmt1);
-//Aqui informamos uma string com a data no modo PT-BR e passamos tb o formato que queremos que aparece.
-//Se não for inserido o formato definido em fmt1, haverá um erro. Já que o valor da string estará fora do padrão da ISO.
-		
-  ```
+ ```
   
+<h3>Pegando Data Atual e convertendo para o formato PT-BR</h3>
 
+```
+LocalDate data_atual = LocalDate.now();
+//pegando data atual
 
+DateTimeFormatter formato_de_data = DateTimeFormatter.ofPattern("ddd/MM/yyyy");
+//Padrão de data pt-br
+
+System.out.println("Data formatada : " + data_atual.format(formato_de_data));
+//Irá colocar a data capturada, no padrão internacional, e converterá para o formato pt-br na exibição.
+```
 
   
   
