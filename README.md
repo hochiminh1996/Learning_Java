@@ -157,17 +157,17 @@ Métodos do List:
 
 Exemplo em Java : 
   ```
-  LocalDate d01 = LocalDate.now();
-	// pegando a data atual
+LocalDate d01 = LocalDate.now();
+// pegando a data atual
 
-	LocalDateTime d02 = LocalDateTime.now();
-	// pegando a data/hora + segundos
+LocalDateTime d02 = LocalDateTime.now();
+// pegando a data/hora + segundos
 
-	Instant d03 = Instant.now();
-	// retorna a data do GMT ou UTC global;
+Instant d03 = Instant.now();
+// retorna a data do GMT ou UTC global;
 		
-	LocalDate d04 = LocalDate.parse("2023-04-30");
-	//gerando um objeto data a partir de uma string
+LocalDate d04 = LocalDate.parse("2023-04-30");
+//gerando um objeto data a partir de uma string
   ```
   
 
