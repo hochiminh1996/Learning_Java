@@ -155,7 +155,21 @@ Métodos do List:
 <h3>Data-hora</h3>
 <p align="justify">ISO 8601 é um padrão internacional que define um formato para representar datas e horários em um formato não ambíguo e fácil de entender. A data é representada como AAAA-MM-DD e o horário é representado como HH:MM:SS. A combinação de data e hora é representada como AAAA-MM-DDTHH:MM:SS. O padrão é amplamente utilizado em várias indústrias e na programação de computadores para evitar erros e confusão na troca de dados entre diferentes sistemas e organizações.</p>
 
+Exemplo em Java : 
+  ```
+  LocalDate d01 = LocalDate.now();
+	// pegando a data atual
 
+	LocalDateTime d02 = LocalDateTime.now();
+	// pegando a data/hora + segundos
+
+	Instant d03 = Instant.now();
+	// retorna a data do GMT ou UTC global;
+		
+	LocalDate d04 = LocalDate.parse("2023-04-30");
+	//gerando um objeto data a partir de uma string
+  ```
+  
 
 
 
