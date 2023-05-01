@@ -152,8 +152,12 @@ Métodos do List:
   int[][] matriz = new int[3][3]; // 3l x 3c  
   ```
 
+<h3>Data-hora</h3>
+<p align="justify">ISO 8601 é um padrão internacional que define um formato para representar datas e horários em um formato não ambíguo e fácil de entender. A data é representada como AAAA-MM-DD e o horário é representado como HH:MM:SS. A combinação de data e hora é representada como AAAA-MM-DDTHH:MM:SS. O padrão é amplamente utilizado em várias indústrias e na programação de computadores para evitar erros e confusão na troca de dados entre diferentes sistemas e organizações.</p>
 
-  
+
+
+
 
   
   
