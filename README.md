@@ -177,7 +177,7 @@ Instant d06 = Instant.parse("2023-04-30T22:13:26-03:00");
 
 	
 DateTimeFormatter fmt1 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-//criando um objeto que define um formato de data especifico
+//criando um objeto que define um formato de data especifico.
 		
 LocalDate data_format = LocalDate.parse("30/04/2023", fmt1);
 //Aqui informamos uma string com a data no modo PT-BR e passamos tb o formato que queremos que aparece.
