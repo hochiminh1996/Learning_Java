@@ -173,7 +173,16 @@ Instant d05 = Instant.parse("2023-04-30T22:13:26Z");
 // 2023-04-30T22:13:26Z -> data/hora (minutos/segundos) -> Z é o horario de Londres
 	
 Instant d06 = Instant.parse("2023-04-30T22:13:26-03:00");
-//-03:00 está especificando o GMT. Nesse caso, ele vai pegar a data passada e converter p/ o de Londres.	
+//-03:00 está especificando o GMT. Nesse caso, ele vai pegar a data passada e converter p/ o de Londres.
+
+	
+DateTimeFormatter fmt1 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+//criando um objeto que define um formato de data especifico
+		
+LocalDate data_format = LocalDate.parse("30/04/2023", fmt1);
+//Aqui informamos uma string com a data no modo PT-BR e passamos tb o formato que queremos que aparece.
+//Se não for inserido o formato definido em fmt1, haverá um erro. Já que o valor da string estará fora do padrão da ISO.
+		
   ```
   
 
