@@ -266,6 +266,28 @@ LocalDate nextYearsLocalDate = d04.plusYears(100);
 //adicionando 100 anos com base no ano atual.
 	
 LocalDateTime pastWeekDateTime = d05.plusDays(10);
-//Adicionando 10 dias, só que dessa vez considerando data/hora. Funciona com Dias, anos, meses, horas...	
+//Adicionando 10 dias, só que dessa vez considerando data/hora. Funciona com Dias, anos, meses, horas...
+	
+LocalDate pastWeekLocalDate = d04.minusDays(100);
+// Pegando a data em d04 menos 100 dias. Retorna uma data correspondente a - 100 dias : 2020-05-11.
+	
+LocalDate pastWeekLocalDate2 = d04.minusDays(7);
+//adicionando dias (no formato sem tempo)
+
+LocalDate nextWeekLocalDate = d04.plusDays(100);
+// Pegando a data em d04 e adicionando 100 dias. Retorna uma data correspondente a + 100 dias : 2022-10-28.
+
+LocalDate nextYearsLocalDate = d04.plusYears(100);
+// Adicionando 100 anos com base no ano atual.
+
+LocalDateTime pastWeekDateTime = d05.plusDays(10);
+// Adicionando 10 dias, só que dessa vez considerando data/hora. Funciona com Dias, anos, meses, horas...
+	
+Duration t1 = Duration.between(LocalDateTime.now(), pastWeekDateTime);
+// irá pegar a diferença entre duas datas/horas. Data atual e data passada.
+System.out.println(t1.toDays());// irá retornar a diferença de dias.
+	
+Duration t2 = Duration.between(pastWeekLocalDate2.atStartOfDay(), d04.atStartOfDay());
+// realizando a operação de diferença entre datas. O método atStartOfDay é usado porque é necessário setar os segundos para ser compatível.	
 ```
   
