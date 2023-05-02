@@ -199,6 +199,15 @@ System.out.println("Data formatada : " + data_atual.format(formato_de_data));
 System.out.println("Data/hora : " + data_atual1.format(formato_de_data1));
 //Irá colocar a data capturada, no padrão internacional, e converterá para o formato pt-br na exibição : ANO-MÊS-DIA-HH-mm
 
+
+ZoneId.getAvailableZoneIds();
+//retorna uma coleção com os nomes dos fusos horários customizados
+
+for(String s:ZoneId.getAvailableZoneIds()) {
+	System.out.println(s);
+	//percorrendo a coleção dos fusos -> há + de 600
+}
+
 ```
 
   
