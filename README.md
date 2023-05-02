@@ -177,7 +177,7 @@ Instant d06 = Instant.parse("2023-04-30T22:13:26-03:00");
 	
  ```
   
-<h3>Pegando Data Atual e convertendo para o formato PT-BR</h3>
+<h3>Trabalhando com data/hora em Java</h3>
 
 ```
 LocalDate data_atual = LocalDate.now();
@@ -207,7 +207,18 @@ for(String s:ZoneId.getAvailableZoneIds()) {
 	System.out.println(s);
 	//percorrendo a coleção dos fusos -> há + de 600
 }
-
+	
+LocalDate conver = LocalDate.ofInstant(d06, ZoneId.systemDefault());
+//Converte a data Universal p/ a data local.O ZoneId.SystemDefault() pega o fuso do computador.
+				
+LocalDate conver1 = LocalDate.ofInstant(d06, ZoneId.of("Portugal"));
+//Converte a data Universal p/ o data de Portugal.Lembre-se : há uma lista de fusos no ZoneId
+		
+LocalDateTime conver3 = LocalDateTime.ofInstant(d06, ZoneId.systemDefault());
+// Convertendo a data/hora universal p/ local, com base no fuso do computador
+		
+LocalDateTime conver4 = LocalDateTime.ofInstant(d06, ZoneId.of("Portugal"));
+// Convertendo a data/hora universal p/ a data/hora de Portugal, com base no fuso do computador
 ```
 
   
