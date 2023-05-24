@@ -138,7 +138,7 @@ Métodos do List:
 * Definição: Um array bidimensional, ou matriz, é uma coleção de elementos organizados em linhas e colunas, formando uma tabela de elementos. É acessado por um par de índices inteiros que representam a posição na matriz.
 * Vantagens:
   - Estrutura tabular: Matrizes são ideais para representar dados tabulares, como tabelas em banco de dados ou imagens, onde os elementos são organizados em linhas e     colunas.
-  - Flexibilidade de tamanho: Ao contrário de um vetor, as matrizes podem ter tamanho variável em suas dimensões. É possível alterar o número de linhas e colunas em      uma matriz após a sua criação.
+  - Acesso eficiente aos elementos: Com uma matriz, é possível acessar os elementos de forma eficiente usando índices de linha e coluna. Isso torna mais fácil recuperar e atualizar valores específicos dentro da estrutura de dados.
 * Desvantagens:
   - Acesso menos eficiente: O acesso a elementos em uma matriz bidimensional pode ser menos eficiente do que em um vetor, pois requer dois índices para acessar um único elemento.
   - Complexidade de iteração: Iterar em uma matriz bidimensional pode ser mais complexo do que em um vetor, pois requer o uso de loops aninhados para percorrer todas as linhas e colunas.
