@@ -294,4 +294,12 @@ Duration t2 = Duration.between(pastWeekLocalDate2.atStartOfDay(), d04.atStartOfD
 	
 <p align="justify">ENUM em Java é uma classe especial que representa um conjunto fixo de valores constantes. </p>	
 	
+```
+public enum OrderStatus{
+	PENDING_PAYMENT,
+	PROCESSING,
+	SHIPPED,
+	DELIVERED
+}
+```
   
