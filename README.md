@@ -289,4 +289,9 @@ System.out.println(t1.toDays());// irá retornar a diferença de dias.
 Duration t2 = Duration.between(pastWeekLocalDate2.atStartOfDay(), d04.atStartOfDay());
 // realizando a operação de diferença entre datas. O método atStartOfDay é usado porque é necessário setar os segundos para ser compatível.	
 ```
+	
+<h3>Enumeração (ENUM)</h3>
+	
+<p align="justify">ENUM em Java é uma classe especial que representa um conjunto fixo de valores constantes. </p>	
+	
   
