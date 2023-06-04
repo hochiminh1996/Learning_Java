@@ -21,9 +21,10 @@ public class Order {
 
 	}
 
-	public Order(Date moment, OrderStatus status) {
+	public Order(Date moment, OrderStatus status, Client client) {
 		this.moment = moment;
 		this.status = status;
+		this.client = client;
 	}
 
 	public Date getMoment() {
@@ -76,20 +77,20 @@ public class Order {
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
 
+		sb.append(getClient());// está chamando o toString do objeto cliente
+
 		sb.append("\nPedido: \n");
-		
-		sb.append("Data do pedido: " + sdf.format(getMoment())+ "\n");
+		sb.append("Data do pedido: " + sdf.format(getMoment()) + "\n");
 		sb.append("Status: " + getStatus() + "\n");
 
 		sb.append("Lista de pedidos: \n");
 		int cont = 1;
 		for (OrderItem orderI : itens_pedidos) {
-			sb.append("\nProduto #"+cont+"\n");
-			sb.append("Nome do Produto:" +  orderI.getProduct().getName() + "\n");
-			sb.append("Preço do Produto: " + orderI.getProduct().getPrice() + "\n");
-			sb.append("Preço do Produto: " + orderI.getPrice() + "\n");
-			sb.append("Quantidade: " + orderI.getQuantity() + "\n");
-			sb.append("Sub-total: " + orderI.subTotal() + "\n");
+			sb.append("\nProduto #" + cont + "\n");
+
+			sb.append(orderI.toString());// percorrendo o arraylist e pegando todos os items. Veja o StringBuilder da
+											// classe orderItems
+
 			cont++;
 
 		}
