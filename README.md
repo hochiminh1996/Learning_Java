@@ -112,7 +112,7 @@ Métodos do List:
 ```
   
   
-  <h3>Array</h3>
+<h3>Array</h3>
   <p alig="justify">Em Java, um array é uma estrutura de dados que pode armazenar múltiplos elementos do mesmo tipo em uma única variável. Os arrays podem ser unidimensionais (também conhecidos como vetores) ou bidimensionais (também conhecidos como matrizes), e possuem vantagens e desvantagens distintas.
 </p>
   
@@ -304,6 +304,7 @@ public enum OrderStatus{
 ```
 
 <h3>Relacionamentos entre objetos</h3>
+	
 * Composição: é uma forma de relacionamento entre objetos em que um objeto é composto por outros objetos. Esses objetos componentes são partes essenciais do objeto todo e não existem de forma independente. Em outras palavras, o objeto todo é responsável pela criação e destruição dos objetos parte. Se o objeto todo for excluído, os objetos parte também serão.
 
 
