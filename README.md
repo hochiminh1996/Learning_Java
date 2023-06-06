@@ -302,4 +302,8 @@ public enum OrderStatus{
 	DELIVERED
 }
 ```
-  
+
+<h3>Relacionamentos entre objetos</h3>
+* Composição: é uma forma de relacionamento entre objetos em que um objeto é composto por outros objetos. Esses objetos componentes são partes essenciais do objeto todo e não existem de forma independente. Em outras palavras, o objeto todo é responsável pela criação e destruição dos objetos parte. Se o objeto todo for excluído, os objetos parte também serão.
+
+
