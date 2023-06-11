@@ -6,7 +6,6 @@
 </p>
 
 
-
 <p align="justify">Além disso, o Java é uma linguagem de programação robusta, segura e escalável, com um grande ecossistema de bibliotecas e frameworks que facilitam o desenvolvimento de software. Ele é amplamente utilizado em empresas de tecnologia e em projetos open source em todo o mundo.
 </p>
 
