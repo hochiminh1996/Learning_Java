@@ -339,5 +339,7 @@ Diferenças:
 Na composição, a existência do objeto parte está fortemente ligada ao objeto todo, e se o objeto todo for excluído, os objetos parte também serão. Na agregação, os objetos parte podem existir independentemente do objeto todo e não são excluídos quando o objeto todo é excluído.
 Na composição, a criação e gerenciamento dos objetos parte são responsabilidade do objeto todo. Na agregação, os objetos parte podem ser criados separadamente e associados ao objeto todo por meio de métodos específicos.A composição é uma relação mais forte e mais restritiva do que a agregação.</p>
 
+<h3>Herança</h3>
+<p align="justify">Herança é uma dos pilares da programação orientada a objetos, junto com encapsulamento e polimorfismo. É um tipo de associação entre classes que permite que uma classe herde todos os métodos e atributos de outra. Sua vantagem está no reuso</p>
 
 
