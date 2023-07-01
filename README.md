@@ -28,7 +28,6 @@
 - [ ] Desenvolvimento web com Servlets e JSP
 - [ ] Introdução ao framework Spring (IoC, DI, AOP)
 
-
 <h2> Definições</h2>
 <h3>Objeto</h3>
 <p align="justify">Em Java, um objeto é uma instância de uma classe. Ele é uma representação concreta de um conceito, entidade ou coisa no mundo real, que pode ter atributos (variáveis) e comportamentos (métodos) associados a ele. </p>
