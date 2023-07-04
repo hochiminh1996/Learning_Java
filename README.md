@@ -62,7 +62,7 @@ Exemplo:
     //o obj será será convertido para um tipo inteiro.
 ```
 
-<h3>List </h3>
+<h2>List </h2>
 <p align="justify">Uma lista é uma <strong>interface</strong> que representa uma coleção ordenada de elementos, onde cada elemento pode ser acessado por sua posição (índice) na lista. A interface List faz parte do pacote java.util e é uma das principais estruturas de dados usadas para armazenar e manipular coleções de elementos em Java.</p>
 
 ```
@@ -107,7 +107,7 @@ Métodos do List:
 ```
   
   
-<h3>Array</h3>
+<h2>Array</h2>
   <p alig="justify">Em Java, um array é uma estrutura de dados que pode armazenar múltiplos elementos do mesmo tipo em uma única variável. Os arrays podem ser unidimensionais (também conhecidos como vetores) ou bidimensionais (também conhecidos como matrizes), e possuem vantagens e desvantagens distintas.
 </p>
   
@@ -146,7 +146,7 @@ Métodos do List:
   int[][] matriz = new int[3][3]; // 3l x 3c  
   ```
 
-<h3>Data-hora</h3>
+<h2>Data-hora</h2>
 <p align="justify">ISO 8601 é um padrão internacional que define um formato para representar datas e horários em um formato não ambíguo e fácil de entender. A data é representada como AAAA-MM-DD e o horário é representado como HH:MM:SS. A combinação de data e hora é representada como AAAA-MM-DDTHH:MM:SS. O padrão é amplamente utilizado em várias indústrias e na programação de computadores para evitar erros e confusão na troca de dados entre diferentes sistemas e organizações.</p>
 
 Exemplo em Java : 
@@ -171,7 +171,7 @@ Instant d06 = Instant.parse("2023-04-30T22:13:26-03:00");
 	
  ```
   
-<h3>Trabalhando com data/hora em Java</h3>
+<h2>Trabalhando com data/hora em Java</h2>
 
 ```
 LocalDate data_atual = LocalDate.now();
