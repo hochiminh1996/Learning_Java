@@ -240,7 +240,7 @@ System.out.println(d05.getSecond());
 	
 ```
 
-<h3>Realizando cálculos com data e hora</h3>
+<h2>Realizando cálculos com data e hora</h2>
 
 ```
 LocalDate d04 = LocalDate.parse("2022-07-20");
@@ -285,7 +285,7 @@ Duration t2 = Duration.between(pastWeekLocalDate2.atStartOfDay(), d04.atStartOfD
 // realizando a operação de diferença entre datas. O método atStartOfDay é usado porque é necessário setar os segundos para ser compatível.	
 ```
 	
-<h3>Enumeração (ENUM)</h3>
+<h2>Enumeração (ENUM)</h2>
 	
 <p align="justify">ENUM em Java é uma classe especial que representa um conjunto fixo de valores constantes. </p>	
 	
@@ -298,7 +298,7 @@ public enum OrderStatus{
 }
 ```
 
-<h3>Relacionamentos entre objetos</h3>
+<h2>Relacionamentos entre objetos</h2>
 	
 	
 * <strong>Associação:</strong> É uma forma de relacionamento entre objetos em que o objeto (todo) pode estar apenas associado a um objeto (parte), segundo a definição do professor : "Na associação, o objeto (todo) só pode estar associado a um único objeto (parte)". Além disso, esses objetos também são independentes entre si. Por exempo, duas classes : Pessoa e Cidade. Nesse cenário, uma pessoa (todo) pode ter residência em APENAS UMA cidade. Se, porventura, uma pessoa tiver residência em mais de uma cidade, esse relacionamento se torna uma agregação, não mais uma associação. 
@@ -336,7 +336,15 @@ Diferenças:
 Na composição, a existência do objeto parte está fortemente ligada ao objeto todo, e se o objeto todo for excluído, os objetos parte também serão. Na agregação, os objetos parte podem existir independentemente do objeto todo e não são excluídos quando o objeto todo é excluído.
 Na composição, a criação e gerenciamento dos objetos parte são responsabilidade do objeto todo. Na agregação, os objetos parte podem ser criados separadamente e associados ao objeto todo por meio de métodos específicos.A composição é uma relação mais forte e mais restritiva do que a agregação.</p>
 
-<h3>Herança</h3>
+<h2>Herança</h2>
 <p align="justify">Herança é uma dos pilares da programação orientada a objetos, junto com encapsulamento e polimorfismo. É um tipo de relacionamento entre classes que permite que uma herde todos os métodos e atributos da outra. Sua vantagem está no reuso. Como já foi dito, é um tipo de relacionamento entre classes, diferente de uma composição ou agregação que se trata de relacionamento entre objetos (criando +1 objeto). Herança é apenas um único objeto mesmo.</p>
+
+<h2>Polimorfismo</h2>
+
+Polimorfismo em programação orientada a objetos é a capacidade de objetos de diferentes classes responderem a um mesmo método, permitindo que um único nome de método possa ser utilizado para realizar operações semelhantes em objetos de diferentes tipos. Isso permite uma maior flexibilidade, reutilização de código e uma abstração mais eficiente, tornando o código mais genérico e adaptável a diferentes situações.
+
+* Polimorfismo de sobreposição (Override) permite que um método com a mesma assinatura (tipo e número de parâmetros) seja implementado em outra classe. Na sobreposição, o método precisa ter a mesma assinatura e estar em classes diferentes. Por exemplo, temos uma classe abstrata (genérica) chamada "Curso" que possui o método "pagamento". Suponha que, nesse exemplo, existam algumas subclasses que herdam métodos e atributos da classe "Curso", como Medicina e Análise e Desenvolvimento de Sistemas. Nesse exemplo rudimentar, todas as subclasses terão que implementar o método "pagamento" com suas especificidades. Esse é um exemplos simples sobre Polimorfismo de sobreposição.
+
+
 
 
