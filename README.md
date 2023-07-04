@@ -343,7 +343,8 @@ Na composição, a criação e gerenciamento dos objetos parte são responsabili
 
 Polimorfismo em programação orientada a objetos é a capacidade de objetos de diferentes classes responderem a um mesmo método, permitindo que um único nome de método possa ser utilizado para realizar operações semelhantes em objetos de diferentes tipos. Isso permite uma maior flexibilidade, reutilização de código e uma abstração mais eficiente, tornando o código mais genérico e adaptável a diferentes situações.
 
-* Polimorfismo de sobreposição (Override) permite que um método com a mesma assinatura (tipo e número de parâmetros) seja implementado em outra classe. Na sobreposição, o método precisa ter a mesma assinatura e estar em classes diferentes. Por exemplo, temos uma classe abstrata (genérica) chamada "Curso" que possui o método "pagamento". Suponha que, nesse exemplo, existam algumas subclasses que herdam métodos e atributos da classe "Curso", como Medicina e Análise e Desenvolvimento de Sistemas. Nesse exemplo rudimentar, todas as subclasses terão que implementar o método "pagamento" com suas especificidades. Esse é um exemplos simples sobre Polimorfismo de sobreposição.
+* Polimorfismo de sobreposição (Override): permite que um método com a mesma assinatura (tipo e número de parâmetros) seja implementado em outra classe. Na sobreposição, o método precisa ter a mesma assinatura e estar em classes diferentes. Por exemplo, temos uma classe abstrata (genérica) chamada "Curso" que possui o método "pagamento". Suponha que, nesse exemplo, existam algumas subclasses que herdam métodos e atributos da classe "Curso", como Medicina e Análise e Desenvolvimento de Sistemas. Nesse exemplo rudimentar, todas as subclasses terão que implementar o método "pagamento" com suas especificidades. Esse é um exemplos simples sobre Polimorfismo de sobreposição.
+* Polimorfismo de sobrecarga:
 
 
 
