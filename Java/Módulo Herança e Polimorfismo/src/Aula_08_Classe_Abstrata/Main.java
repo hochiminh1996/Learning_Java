@@ -9,7 +9,7 @@ public class Main {
 		Locale.setDefault(Locale.US);
 		// São classes que não podem ser instanciadas, apenas suas filhas. Servem de
 		// base p/ outras
-		// Há classes abstratas e métodos também.
+		// Há classes abstratas e métodos também. Os métodos abstratos são implementados na classe filha.
 
 		ArrayList<Account> list = new ArrayList<>();
 		// Observe que estamos criando uma lista com o tipo genérico de conta.
