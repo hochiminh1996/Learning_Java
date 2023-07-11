@@ -341,8 +341,16 @@ Na composição, a criação e gerenciamento dos objetos parte são responsabili
 
 <h2>Polimorfismo</h2>
 
-Polimorfismo em programação orientada a objetos é a capacidade de objetos de diferentes classes responderem a um mesmo método, permitindo que um único nome de método possa ser utilizado para realizar operações semelhantes em objetos de diferentes tipos. Isso permite uma maior flexibilidade, reutilização de código e uma abstração mais eficiente, tornando o código mais genérico e adaptável a diferentes situações.
+<p align="justify">Polimorfismo em programação orientada a objetos é a capacidade de objetos de diferentes classes responderem a um mesmo método, permitindo que um único nome de método possa ser utilizado para realizar operações semelhantes em objetos de diferentes tipos. Isso permite uma maior flexibilidade, reutilização de código e uma abstração mais eficiente, tornando o código mais genérico e adaptável a diferentes situações.</p>
 
 * Polimorfismo de Sobreposição (Override): Permite que um método com a mesma assinatura (tipo e número de parâmetros) seja implementado em outra classe. Na sobreposição, o método precisa ter a mesma assinatura e estar em classes diferentes. Por exemplo, temos uma classe abstrata (genérica) chamada "Curso" que possui o método "pagamento". Suponha que, nesse exemplo, existam algumas subclasses que herdam métodos e atributos da classe "Curso", como Medicina e Análise e Desenvolvimento de Sistemas. Nesse exemplo rudimentar, todas as subclasses terão que implementar o método "pagamento" com suas especificidades. Esse é um exemplos simples sobre Polimorfismo de sobreposição.
 * Polimorfismo de Sobrecarga: Permite que um mesmo método, com assinaturas diferentes (tipo e número de parâmetros), seja implementado na mesma classe. Por exemplo, temos uma classe chamada "Calculadora" que possui o método "calcular". Nesse exemplo podemos ter, na mesma classe, 3 tipos de métodos "calcular"(com parâmetros e tipos diferentes). Um método "calcular" que recebe apenas números inteiros, o outro apenas reais, o outro reais e inteiros e etc. Esse é um exemplo de Polimorfismo de Sobrecarga. O construtor também é um exemplo de sobrecarga. Afinal, podemos ter N tipos de construtores com parâmetros e tipos diferentes.
 
+<h2>Exceções</h2>
+<p align="justify">Uma exceção é qualquer condição de erro ou comportamento inesperado encontrado por um programa em execução.</p>
+<p>Em Java, uma exceção é um objeto herdado da classe:</p>
+
+* Java.lang.Exception: O compilador obriga a tratar ou propagar
+* Java.lang.RuntimeException: O compilador naõ obriga a tratar ou propagar
+
+<p align="justify">Quando lançada, uma exceção é propagada na pilha de chamadas de métodos em exceção, até que seja capturada (tratada) ou o programa seja encerrado.</p>
