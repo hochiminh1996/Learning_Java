@@ -384,7 +384,7 @@ System.out.println("Capturando o erro:"+e.getMessage());
 }finally{
 
 sc.close();
-//fechando a entrada de dados do objeto scanner(apenas um exemplo rudimentar)
+//fechando a entrada de dados do objeto scanner, independente se houve ou não uma exceção (apenas um exemplo rudimentar)
 
 }
 ```
