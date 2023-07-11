@@ -371,6 +371,20 @@ Vantagens
 * Bloco finally: É um bloco que contém o código a ser executado independentemente se ocorreu ou não uma exceção.
 * Deve ser especificado o tipo da exceção a ser tratada (upcasting é permitido).
 
+```
+try{
+
+//bloco de execução normal do código
+
+}catch(Exception e){
+
+System.out.println("Capturando o erro:"+e.getMessage());
+//aqui capturamos o erro da exceção
+
+}finally{
+
+}
+```
 
 
 
