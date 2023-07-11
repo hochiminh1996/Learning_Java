@@ -366,9 +366,11 @@ Vantagens
 
 <h3>Estrutura Try-catch</h3>
 
-* Bloco try: contém o código que representa a execução normal do trecho de código que pode acarretar em uma exceção.
-* Bloco catch: contém o código a ser executado caso uma exceção ocorra.
+* Bloco try: Contém o código que representa a execução normal do trecho de código que pode acarretar em uma exceção.
+* Bloco catch: Contém o código a ser executado caso uma exceção ocorra.
+* Bloco finally: É um bloco que contém o código a ser executado independentemente se ocorreu ou não uma exceção.
 * Deve ser especificado o tipo da exceção a ser tratada (upcasting é permitido).
+
 
 
 
