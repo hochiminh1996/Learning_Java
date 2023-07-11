@@ -363,3 +363,12 @@ Vantagens
 * Delega a lógica de erro para a classe responsável por conhecer as regras que podem ocasionar o erro.
 * Trata de forma organizada (inclusive hierárquica) exceções de tipos diferentes.
 * A exceção pode carregar dados quaisquer.
+
+<h3>Estrutura Try-catch</h3>
+
+* Bloco try: contém o código que representa a execução normal do trecho de código que pode acarretar em uma exceção.
+* Bloco catch: contém o código a ser executado caso uma exceção ocorra.
+* Deve ser especificado o tipo da exceção a ser tratada (upcasting é permitido).
+
+
+
