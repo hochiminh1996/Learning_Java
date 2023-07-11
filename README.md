@@ -354,3 +354,12 @@ Na composição, a criação e gerenciamento dos objetos parte são responsabili
 * Java.lang.RuntimeException: O compilador naõ obriga a tratar ou propagar
 
 <p align="justify">Quando lançada, uma exceção é propagada na pilha de chamadas de métodos em exceção, até que seja capturada (tratada) ou o programa seja encerrado.</p>
+
+<h3>Por que exceções?</h3>
+
+<p align="justify">O modelo de tratamento de exceções permite que erros sejam tratados de forma consistente e flexível, usando boas práticas</p>
+
+Vantagens
+* Delega a lógica de erro para a classe responsável por conhecer as regras que podem ocasionar o erro.
+* Trata de forma organizada (inclusive hierárquica) exceções de tipos diferentes.
+* A exceção pode carregar dados quaisquer.
