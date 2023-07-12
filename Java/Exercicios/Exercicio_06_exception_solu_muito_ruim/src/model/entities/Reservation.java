@@ -9,17 +9,18 @@ public class Reservation {
 	private Integer roomNumber;
 	private Date checkin;
 	private Date checkout;
-	private static SimpleDateFormat sdf = new SimpleDateFormat("mm/DD/yyyy");
+	private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+	
 	// está static p/ não ficar instanciado um sdf toda vez que um objeto
 	// reservation é criado. Irá fazer apenas uma vez.
 
 	public Reservation() {
 	}
 
-	public Reservation(Integer roomNumber, Date checkin, Date checkou) {
+	public Reservation(Integer roomNumber, Date checkin, Date checkout) {
 		this.roomNumber = roomNumber;
 		this.checkin = checkin;
-		this.checkout = checkou;
+		this.checkout = checkout;
 	}
 
 	public Integer getRoomNumber() {
@@ -39,14 +40,11 @@ public class Reservation {
 	}
 
 	public long duration() {
-		// long é um inteiro maior
-
 		long diff = checkout.getTime() - checkin.getTime();
-		// diferença entre as duas datas. Retorná um valor em milissegundos
-
+		//.getTime pega a diferença em milessegundos entre data de entrada e saída
+		
 		return TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS);
-		// converte o milissegundos em dias. (timeUnit classe java)
-
+		//TimeUnit converte os milesegundos em dias
 	}
 
 	public void updateDates(Date checkin, Date checkout) {
