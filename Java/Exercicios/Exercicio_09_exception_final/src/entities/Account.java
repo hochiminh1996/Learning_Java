@@ -56,9 +56,8 @@ public class Account {
 		if (getBalance() > 0 && amount <= withdrawLimit && amount <= getBalance() &&  amount>0) {
 			// saldo maior que 0 && valor de saque <= limite && valor de saque <= saldo em
 			// conta && valor de saque tem que ser maior que zero
-			System.out.println("Sucesso. ");
 			balance -= amount;
-			System.out.println("Saque de R$" + amount + " feito com sucesso\nSaldo atual: R$" + getBalance() + "\n");
+			System.out.println("Saque de R$" + amount + " feito com sucesso\n");
 		} else {
 			if (getBalance() < amount) {
 				throw new DomainException("Saldo insuficiente...");
