@@ -26,7 +26,7 @@
 - [x] Desenvolvimento de interfaces gráficas com Swing
 - [ ] Conexão com bancos de dados (JDBC)
 - [ ] Desenvolvimento web com Servlets e JSP
-- [ ] Introdução ao framework Spring (IoC, DI, AOP)
+- [ ] Introdução ao framework Spring 
 
 <h2> Definições</h2>
 <h3>Objeto</h3>
