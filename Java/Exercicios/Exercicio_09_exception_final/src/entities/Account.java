@@ -51,9 +51,9 @@ public class Account {
 		this.withdrawLimit = withdrawLimit;
 	}
 
-	public void withdraw(Double amount) throws DomainException {
+	public void withdraw(Double amount) {
 
-		if (getBalance() > 0 && amount <= withdrawLimit && amount <= getBalance() &&  amount>0) {
+		if (getBalance() > 0 && amount <= withdrawLimit && amount <= getBalance() && amount > 0) {
 			// saldo maior que 0 && valor de saque <= limite && valor de saque <= saldo em
 			// conta && valor de saque tem que ser maior que zero
 			balance -= amount;
@@ -61,20 +61,26 @@ public class Account {
 		} else {
 			if (getBalance() < amount) {
 				throw new DomainException("Saldo insuficiente...");
-			} else if (amount >= withdrawLimit) {
-				throw new DomainException("Limite insuficiente...");
-			}else if(amount <0) {
-				throw new DomainException("Valor inválido...");
-
 			}
+
+			if (amount >= withdrawLimit) {
+				throw new DomainException("Limite insuficiente...");
+			}
+
+			if (amount < 0) {
+				throw new DomainException("Valor inválido...");
+			}
+
+			// throw corta o método na hora. Significa que n executa os else. Logo, não é
+			// necessário botar else nos if
 		}
 
 	}
 
-	public void deposit(Double amount) throws DomainException {
+	public void deposit(Double amount) {
 		if (amount > 0) {
 			balance += amount;
-			System.out.println("Deposito de R$" + amount + " feito com sucesso\nSaldo atual: R$" + getBalance() + "\n");
+			System.out.println("Deposito de R$" + amount + " feito com sucesso\n");
 		} else {
 			throw new DomainException("Valor inválido");
 		}
