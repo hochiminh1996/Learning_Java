@@ -24,7 +24,7 @@
 - [x] Arrays e Collections
 - [x] Entrada e saída de dados
 - [x] Desenvolvimento de interfaces gráficas com Swing
-- [ ] Conexão com bancos de dados (JDBC)
+- [x] Conexão com bancos de dados (JDBC)
 - [ ] Desenvolvimento web com Servlets e JSP
 - [ ] Introdução ao framework Spring
 
